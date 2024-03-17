@@ -21,8 +21,11 @@
 .switch-container.right .switch {
   transform: translateX(45px);
 }
-.switch-container.left .switch{
+.switch-container.left .switch {
   transform: translateX(5px);
+}
+.switch-container.left {
+  background-color: gray;
 }
 
 .switch-text {
@@ -31,7 +34,6 @@
   transform: translateY(-50%);
   color: white;
 }
-
 
 .switch-container.right .switch-text {
   display: block;
