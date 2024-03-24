@@ -1,0 +1,30 @@
+.toggle-container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+    &.on .circle{
+        left: calc(100% - 27px); 
+    }
+}
+
+.switch {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+}
+
+.circle {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease, left 0.3s ease; 
+}
+

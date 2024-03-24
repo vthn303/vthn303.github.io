@@ -1,0 +1,27 @@
+@import './assets/scss/mixins.scss';
+
+
+#root {
+  // max-width: 1280px;
+  // margin: 0 auto;
+  // padding: 2rem;
+  // text-align: center;
+}
+
+
+.app{
+  // @include flex($at:end);
+  // @include flex{
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
+  // @include mobile{
+  //   background-color: orange;
+
+  // }
+  // height: 100vh;
+}
+
+

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Switch.css'; // Import CSS file
 
 const Switch = () => {

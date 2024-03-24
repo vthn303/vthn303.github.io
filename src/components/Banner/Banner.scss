@@ -1,0 +1,17 @@
+.banner{
+    background: linear-gradient(#7ac1f5, #9198e5);
+    height: 330px;
+    position:relative;
+    &-text{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        text-align: center;
+        color: white;
+        h1{
+            font-weight: bolder;
+            font-size: 50px;
+        }
+    }
+}

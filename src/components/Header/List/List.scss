@@ -1,0 +1,17 @@
+ul {
+  li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 15px;
+    & a:hover {
+      cursor: pointer;
+      border-bottom: 2px dotted #ff6700;
+      color: #ff6700;
+    }
+    #user {
+      border-bottom: 2px dotted #ff6700;
+
+      color: #ff6700;
+    }
+  }
+}
