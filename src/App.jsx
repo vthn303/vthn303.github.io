@@ -1,12 +1,18 @@
-import "./App.css";
-import Table from "./components/Table/Table.jsx";
-import Switch from "./components/Switch/Switch.jsx";
+import Header from '../src/components/Header/Header'
+import Banner from '../src/components/Banner/Banner'
+import Content from '../src/components/Content/Content'
+import Footer from '../src/components/Footer/Footer'
+// import "./App.css";
+
 
 const App = () => {
   return (
     <div className="app">
-      <Table />
-      <Switch />
+    <Header/>
+    <Banner/>
+    <Content/>
+    <Footer/>
+
     </div>
   );
 };
